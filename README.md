@@ -2,11 +2,8 @@
 go practice
 
 # One
-<<<<<<< HEAD
-The ONE framework is a Gin-like web framework that contains the following features:
-=======
+
 The One framework is a Gin-like web framework that contains the following features:
->>>>>>> b3fbfe4 (metadata file add)
 
 1：上下文设计(context的封装)
 
@@ -19,3 +16,12 @@ The One framework is a Gin-like web framework that contains the following featur
 5:HTML模板
 
 6：error 回复
+
+
+# example 
+
+golang 练习库
+
+# library 
+
+golang 的常见库文件源码注释
