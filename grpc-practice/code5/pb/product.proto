@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package service;
+import "user.proto" ;
+
+option go_package = "../service";
+
+message ProductRequest{
+  int32 prod_id = 1;
+}
+
+message ProductResponse{
+  int32 prod_stock = 1;
+  User user = 2;
+}
+
+
+service ProdService {
+  rpc GetProductStock(ProductRequest) returns (ProductResponse);
+}
